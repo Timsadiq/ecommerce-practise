@@ -16,7 +16,7 @@ const Search = () => {
            item.category.toLowerCase()===categoryQuery
         )
         if(filtered.length===0){
-            navigate =('/')
+            navigate ('/')
         }else{
             setResutlt(filtered)
         }
