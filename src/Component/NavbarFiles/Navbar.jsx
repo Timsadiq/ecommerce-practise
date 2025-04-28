@@ -1,6 +1,6 @@
 import React from 'react'
 import LOGO from '../../assets/logo.png'
-import './navbar.css'
+import './Navbar.css'
 import { Link } from 'react-router-dom'
 import { BsCart4 } from "react-icons/bs"
 import {useCart} from '../Context/Cartcontext'
