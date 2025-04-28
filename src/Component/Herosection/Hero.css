@@ -1,0 +1,22 @@
+.hero{
+    background-color: #e5e5e5;
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+.hero h1{
+    padding-top: 100px;
+    font-size: 50px;
+}
+.hero p{
+font-size:30px;
+font-family: cursive;
+}
+.hero_banner{
+    width: 300px;
+}
