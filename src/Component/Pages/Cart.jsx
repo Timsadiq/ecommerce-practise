@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom'
 
 const Cart = () => {
   // Get cart items and functions from context
-  const { cartItems,  incrementByQty, decrementQty, removeFromCart } = useCart()
+  const { cartItems,  incrementByQty, decrementQty,clearCart, removeFromCart } = useCart()
 
   // Calculate total cart value
   const subtotal = cartItems.reduce((total, item) => total + item.qty * item.new_price, 0)
@@ -50,6 +50,7 @@ const Cart = () => {
               <hr />
               <p><strong>Subtotal:</strong> ${subtotal.toFixed(2)}</p>
               <Link to='/signup' className='btn btn-success w-100'>Proceed to Checkout</Link>
+              <Link to='/signup' className='btn btn-success w-100'onClick={()=>clearCart}>clear cart</Link>
             </div>
           </div>
         </div>
