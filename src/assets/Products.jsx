@@ -23,35 +23,40 @@ const all_products = [
           name: 'new vase',
           img: NEW1,
           new_price: 100.00,
-          old_price: 110.00
+          old_price: 110.00,
+          category:'flower'
       },
       {
           id: 2,
           name: 'new vase',
           img: NEW2,
           new_price: 100.00,
-          old_price: 110.00
+          old_price: 110.00,
+          category:'flower'
       },
       {
           id: 3,
           name: 'new vase',
           img: NEW3,
           new_price: 100.00,
-          old_price: 110.00
+          old_price: 110.00,
+          category:'flower'
       },
       {
           id: 4,
           name: 'Beautiful flower',
           img: NEW4,
           new_price: 100.00,
-          old_price: 110.00
+          old_price: 110.00,
+          category:'flower'
       },
       {
           id: 5,
           name: 'flower',
           img: NEW5,
           new_price: 100.00,
-          old_price: 110.00
+          old_price: 110.00,
+          category:'flower'
       },
   {
     

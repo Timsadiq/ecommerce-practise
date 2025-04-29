@@ -14,7 +14,7 @@ const ProductDetails = () => {
 
     const { id } = useParams()
     const navigate = useNavigate()
-    const product = products.find(p => p.id === parseInt(id))
+    const product = Products.find(p => p.id === parseInt(id))
 
     if (!product) return <h2 className='text-center mt-5'>Product not Found</h2>
 
