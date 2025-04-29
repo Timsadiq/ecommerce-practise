@@ -50,7 +50,7 @@ const Cart = () => {
               <hr />
               <p><strong>Subtotal:</strong> ${subtotal.toFixed(2)}</p>
               <Link to='/signup' className='btn btn-success w-100'>Proceed to Checkout</Link>
-              <Link to='/signup' className='btn btn-success w-100'onClick={()=>clearCart}>clear cart</Link>
+              <button className='btn btn-success w-100'onClick={()=>clearCart()}>clear cart</button>
             </div>
           </div>
         </div>
