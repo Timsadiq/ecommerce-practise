@@ -1,9 +1,9 @@
 import React, { useEffect } from 'react'
 import { useParams, useNavigate } from 'react-router-dom'
-import products from '../../assets/Products'
-import './productdetails.css'
+import Products from '../../assets/Products'
+import './ProductDetails.css'
 import { FaStar } from 'react-icons/fa'
-import { useCart } from '../Context/Cartcontext'
+import { useCart } from '../Context/Cartcontext' 
 
 const ProductDetails = () => {
 
