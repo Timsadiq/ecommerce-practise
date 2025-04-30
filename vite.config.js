@@ -3,6 +3,7 @@ import react from '@vitejs/plugin-react'
 import { resolve } from 'path'
 
 export default defineConfig({
+  base: '/', // ✅ this is critical for Netlify deployment
   plugins: [react()],
   build: {
     rollupOptions: {
@@ -11,5 +12,5 @@ export default defineConfig({
       }
     }
   },
-  publicDir: 'public' // this is default, but explicitly keep it
+  publicDir: 'public'
 })
